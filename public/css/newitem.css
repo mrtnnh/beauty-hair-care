@@ -1,0 +1,25 @@
+.newitem_table{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.newitem_tr{
+  width: 20%;
+  margin: 1em;
+}
+
+.newitem_img{
+  width: 100%;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.newitem_img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.newitem_text{
+  margin: 1em;
+}

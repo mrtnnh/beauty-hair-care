@@ -1,0 +1,25 @@
+.products_table{
+  margin: 2em auto;
+  border-collapse: collapse;
+}
+
+.products_table td{
+  padding: 0.3em;
+  border: solid 1.5px #454545;
+}
+
+
+.products_table_title {
+  background-color: #454545;
+  color: #FFFF;
+}
+
+
+.edit-btn{
+  padding: 3px;
+  text-align: center;
+  background-color: #8effff;
+  border: 1px solid #adadff;
+  box-shadow: 3px 4px 2px 0 #d6d6ff;
+  border-radius: 10px;
+}

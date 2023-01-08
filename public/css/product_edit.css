@@ -1,0 +1,31 @@
+.product_wrap{
+  width: 90%;
+  margin: 0 auto;
+}
+.product_input{
+  text-align: center;
+  margin: 2em;
+}
+
+.product_data{
+  width: 50%;
+  height: 2em;
+}
+
+.product_input select{
+  width: 30%;
+  height: 2em;
+}
+
+.product_input img{
+  width: 50%;
+}
+
+.img_send{
+  margin: 2em;
+}
+
+.description{
+  width: 60%;
+  height: 150px;
+}

@@ -1,0 +1,139 @@
+body{
+  width: auto;
+  margin: 0;
+  background-color: #efffff;
+}
+
+a,ul,li{
+  text-decoration: none;
+  list-style: none;
+  color: inherit;
+}
+
+a:hover{
+  color: #778899;
+}
+/* ナビすべて横並び */
+.background{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #FFFF;
+  box-shadow: 0px 5px 10px 0 #d6d6ff;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+/* 右のナビすべて */
+.navwrap{
+  text-align: center;
+  display: flex;
+}
+
+.imgbox{
+  display: flex;
+}
+
+.nav_img{
+  width: 40px;
+  height: 40px;
+  margin: 15px;
+}
+
+.nav_img img{
+width: 100%;
+height:100%;
+}
+
+/* beauty hair care */
+.title_box{
+  width: 50%;
+  height: 50px;
+  padding: 14px;
+}
+
+.title{
+  text-decoration: none;
+  color: inherit;
+  font-size: 25px;
+}
+
+.title:hover{
+  color: #778899;
+}
+.container{
+  width: 90%;
+  margin: 5em auto;
+}
+
+/* ページタイトル */
+.h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 5em;
+}
+
+.border{
+  margin: 5em 0 0 auto;
+  border-bottom: solid 3px grey;
+}
+
+.inputbox{
+  margin: 30px;
+  text-align: center;
+}
+
+.btn{
+  display: block;
+  text-align: center;
+  margin: 10px;
+}
+
+.btn a:hover{
+  color: #778899;
+}
+
+.btn-primary{
+width: 200px;
+padding: 8px;
+margin: 10px;
+text-align: center;
+background-color: #8effff;
+border: 1px solid #adadff;
+box-shadow: 3px 4px 2px 0 #d6d6ff;
+border-radius: 20px;
+}
+
+.btn-primary:hover{
+  color: #f7f6f5;
+}
+
+.text{
+  text-align: center;
+}
+
+/* footer */
+footer{
+  width: 100%;
+  margin: 0;
+}
+
+.page_bottom{
+  padding: 3em;
+  text-align: center;
+  background-color: #FFFF;
+  box-shadow: 0px -5px 10px 0 #d6d6ff;
+}
+
+.successMessage{
+  text-align: center;
+  margin: 20% 0 0 0;
+}
+
+.error{
+  color: #ea5550;
+  text-align: center;
+  font-weight: bold;
+  }

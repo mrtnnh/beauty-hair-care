@@ -1,0 +1,10 @@
+.users_table{
+  border-collapse:collapse;
+  margin: 3em auto;
+}
+
+.users_table tr td{
+  border: solid #525252;
+  text-align: center;
+  padding: 0.5em;
+}
